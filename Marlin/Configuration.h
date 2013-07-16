@@ -255,7 +255,7 @@
 // #define COREXY
 
 // coarse Endstop Settings
-// #define ENDSTOPPULLUPS // Comment this out (using // at the start of the line) to disable the endstop pullup resistors
+#define ENDSTOPPULLUPS // Comment this out (using // at the start of the line) to disable the endstop pullup resistors
 
 #ifndef ENDSTOPPULLUPS
   // fine Enstop settings: Individual Pullups. will be ignored if ENDSTOPPULLUPS is defined
@@ -278,7 +278,7 @@
 
 // The pullups are needed if you directly connect a mechanical endswitch between the signal and ground pins.
 const bool X_ENDSTOPS_INVERTING = true; // set to true to invert the logic of the endstops.
-const bool Y_ENDSTOPS_INVERTING = false; // set to true to invert the logic of the endstops.
+const bool Y_ENDSTOPS_INVERTING = true; // set to true to invert the logic of the endstops.
 const bool Z_ENDSTOPS_INVERTING = true; // set to true to invert the logic of the endstops.
 //#define DISABLE_MAX_ENDSTOPS
 //#define DISABLE_MIN_ENDSTOPS
