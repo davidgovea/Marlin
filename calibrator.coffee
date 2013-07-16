@@ -18,7 +18,7 @@ z_threadpitch = 1.25 # mm (M8)
 
 e_ratio = 43/10 # Wade's Extruder: 39/11, Accessible Wade's by Greg Frost: 43/10, Adrian's Extruder: 59/11, etc.)
 
-bolt_diameter = 5
+bolt_diameter = 4.15
 
 x_steps_per_mm = x_steps / (x_microstepping * x_belt_pitch * x_gear_teeth)
 y_steps_per_mm = y_steps / (y_microstepping * y_belt_pitch * y_gear_teeth)
